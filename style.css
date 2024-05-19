@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Bungee Spice", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+canvas {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  object-fit: contain;
+  overflow: hidden;
+}
+#head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 10px;
+}
+#audio1 {
+  border: 5px solid rgb(128, 0, 0);
+  border-radius: 20px;
+  width: 400px;
+}
+#myInput {
+  background-color: rgba(236, 122, 122, 0.6);
+  border: 2px inset red;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 5em;
+}
